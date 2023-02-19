@@ -1,0 +1,642 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+  
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.section{
+     width: 1440px;
+     margin: 0px auto;
+}
+.official{
+     padding: 54px 177px;
+     background-image: url(./Picture/logo.svg);
+     height: 832px;
+}
+.nav-logo{
+     margin-top: -4px;
+}
+.navtitle h1{
+     color: rgba(255, 255, 255, 1);
+     padding-left: 17px;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 20px;
+     font-weight: 700;
+   
+}
+.navlist ul li{
+     color:rgba(255, 255, 255, 1);
+    
+     padding-left: 36px;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 20px;
+     font-weight: 400;
+     list-style:none;
+   
+}
+.navlist ul{
+     padding-left: 81px;
+     
+}
+.navbtn a{
+     color: rgba(255, 255, 255, 1);
+     font-family: 'Montserrat', sans-serif;
+     text-decoration:none; 
+     font-size: 20px;
+     font-weight: 400;
+  
+}
+.navbtn a:hover{
+     color:linear-gradient(132.95deg, #FFC301 9.31%, #FF6533 79.4%);
+}
+.navbtn:hover{
+     background-color:rgba(255, 255, 255, 1);
+}
+.navbtn{
+     margin-left: 250px;
+     border-radius:10px;
+     padding: 8px 26px;
+     background: linear-gradient(132.95deg, #FFC301 9.31%, #FF6533 79.4%);
+     box-shadow: 15px 15px 35px 0px rgba(226, 142, 15, 0.18);
+}
+
+
+.infor{
+     margin-top: 143px;
+     width: 472px;
+}
+.infor h1{
+     color: rgba(255, 255, 255, 1);
+     font-family: 'Montserrat', sans-serif;
+     font-size: 48px;
+     font-weight: 700;
+     line-height: 68px;
+}
+.inforp {
+     margin-top: 40px;
+     width: 440px;
+}
+.inforp p{
+     color: rgba(255, 255, 255, 1);
+     font-family: 'Montserrat', sans-serif;
+     font-size: 20px;
+     font-weight: 400;
+     line-height: 157.9%;
+}
+
+.btns{
+     margin-top: 46px;
+}
+.btn1{
+     background: linear-gradient(132.95deg, #FFC301 9.31%, #FF6533 79.4%);
+     width: 155px;
+     height: 48px;
+     box-shadow: 15px 15px 35px 0px rgba(226, 142, 15, 0.18);
+     border-radius:10px;
+}
+.btn1 a{
+     font-family: Montserrat;
+     font-size: 20px;
+     font-weight: 700;
+     text-decoration: none;
+     color: rgba(255, 255, 255, 1);
+}
+.btn1{
+     padding: 8px 35px;
+}
+.btn2{
+     border-radius:10px;
+     margin-left:20px ;
+     width: 155px;
+     height: 48px;
+     border: 1px solid #FF8E1E;
+     padding: 8px 35px;
+}
+.btn2 a{
+     font-family: Montserrat;
+     font-size: 20px;
+     font-weight: 700;
+     text-decoration: none;
+     color: rgba(255, 255, 255, 1);
+}
+
+
+.Currentprice{
+     position: relative;
+     width: 255px;
+     height: 192px;
+     background: linear-gradient(140.08deg, #9CD2EE 3.42%, #00ACEE 95.98%);
+     left: 540px;
+     bottom: 100px;
+     border-radius: 10px;
+     padding: 20px 29px;
+}
+.Currentprice h1{
+     font-family: Montserrat;
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 32px;
+     letter-spacing: 0.02em;
+     text-align: left;
+     color: rgba(244, 244, 244, 1);
+}
+.sell img{
+     margin-top: 7px;
+     margin-right: 14px;
+     width: 21px;
+     height: 28px;
+}
+.sell h1{
+     margin-top: 4px;
+     margin-right: 14px;
+     font-family: Montserrat;
+     font-size: 24px;
+     font-weight: 700;
+     line-height: 32px;
+     letter-spacing: 0.02em;
+     text-align: left;
+     color: rgba(244, 244, 244, 1);
+}
+.sell p{
+     margin-top: 8px;
+     font-family: Montserrat;
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 26px;
+     letter-spacing: 0.02em;
+     text-align: left;
+     color: rgba(244, 244, 244, 1);
+}
+.userwade img{
+     margin-top: 26px;
+     margin-left: 1px;
+     width: 42px;
+     border-radius: 50%;
+}
+.userwade h1{
+     margin-top: 33px;
+     margin-left: 10px;
+     font-size: 13px;
+}
+
+
+
+.middle{
+     background-color: #F7F7F7;    
+     height: 877px;
+}
+.shop{
+     width: 488px;
+     height: 136px;
+     margin: 80px auto;
+     margin-bottom: 24px;
+}
+.shop h1{
+     color: rgba(35, 34, 34, 1);
+     font-family: Montserrat;
+     font-size: 48px;
+     font-weight: 700;
+}
+.new{
+     width: 770px;
+     height: 72px;
+     margin: 0px auto;
+}
+.new p{
+     color: rgba(35, 34, 34, 1);
+     font-family: Montserrat;
+     font-size: 20px;
+     font-weight: 400;
+     Line-height:32.78px;
+     text-align: center;
+}
+.contain{
+     margin:0px 70px;
+     margin-top:56px;
+}
+.box{
+     width: 310px;
+     height: 448px;
+     border-radius: 20px;
+     border: 1px solid #FF8E1E; 
+     box-shadow: 12px 18px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.enable{
+     margin: 0px 20px;
+}
+.enable1{
+     margin-right:20px;
+}
+.box img{
+     width: 310px;
+     height: 344px;  
+}
+.box img:hover{
+     width: 310px;
+     height: 448px;
+}
+.tag{
+     font-family: Montserrat;
+     font-size: 32px;
+     font-weight: 700;
+     margin-top:25px;
+     text-align: center;
+     color:rgba(35, 34, 34, 1);
+}
+.tag:hover{
+    color: rgba(255, 255, 255, 1);
+}
+.box:hover{
+     background: linear-gradient(132.95deg, #FFC301 9.31%, #FF6533 79.4%);
+}
+.drob{
+     width: 654px;
+     height: 68px;
+     margin: 16px auto;
+     margin-bottom: 24px;
+}
+.drob h1{
+     color: rgba(35, 34, 34, 1);
+     font-family: Montserrat;
+     font-size: 48px;
+     font-weight: 700;
+}
+.desig{
+     width: 770px;
+     height: 72px;
+     margin: 0px auto;
+}
+.desig p{
+     color: rgba(35, 34, 34, 1);
+     font-family: Montserrat;
+     font-size: 20px;
+     font-weight: 400;
+     Line-height:32.78px;
+     text-align: center;
+}
+
+
+
+
+
+.flowers{
+     width: 310px;
+     height: 420px;
+     box-shadow: 12px 18px 30px 0px rgba(0, 0, 0, 0.1);
+     background-color: #F4F4F4;
+     margin-bottom: 24px;
+     border-radius: 20px;
+}
+.flower{
+     width: 310px;
+     height: 236px;
+     
+}
+.name{
+     margin-top: 20px;
+     margin-left: 29px;
+     color: rgba(35, 34, 34, 1);
+     font-family: Montserrat;
+     font-size: 18px;
+     font-weight: 700;
+}
+
+
+.price img{
+     width: 15px;
+     height:25px; 
+     margin-top: 6px;
+     margin-left: 33px;
+}
+.price p{
+     margin-left: 16px;
+     margin-top: 6px;
+     color: rgba(255, 142, 30, 1);
+     font-family: Montserrat;
+     font-size: 24px;
+     font-weight: 700;
+}
+.user img{
+     width: 42px;
+     height:42px; 
+     margin-top:36px;
+     margin-left: 29px;
+}
+.user p{
+     margin-left: 17px;
+     margin-top: 45px;
+     color: rgba(35, 34, 34, 1);
+     font-family: Montserrat;
+     font-size: 16px;
+     font-weight: 700;
+}
+
+
+
+
+
+.blogs{
+      margin-top: 80px;
+}
+.blog{
+     width: 837px;
+     height: 68px;
+     margin-bottom: 24px;
+}
+.blog h1{
+     color: rgba(35, 34, 34, 1);
+     font-family: Montserrat;
+     font-size: 48px;
+     font-weight: 700;
+}
+.blogs {
+     margin-left:185px;
+}
+.see{
+     background: linear-gradient(140.08deg, #9CD2EE 3.42%, #00ACEE 95.98%),
+linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    width:155px;
+    height:50px;
+    margin-left: 200px;
+    border-radius: 10px;
+    padding: 10px 38px;
+
+}
+
+.see a{
+     color: rgba(255, 255, 255, 1);
+     font-family: Montserrat;
+     font-size: 20px;
+     font-weight: 700;
+     text-decoration: none;
+}
+.buy{
+     width: 837px;
+     height: 68px;
+     margin-bottom: 28px;
+     margin-left:185px;
+}
+.buy p{
+     color: rgba(35, 34, 34, 1);
+     font-family: Montserrat;
+     font-size: 20px;
+     font-weight: 400;
+     Line-height:32.78px;
+}
+
+
+
+
+
+
+
+
+.boxone{
+     background-image: url(Picture/pattern2.svg);
+     width: 530px;
+     height: 452px;
+}
+.btitle1 {
+     width: 310px;
+     height: 108px;
+     background: #F4F4F4;
+     padding: 20px 56px;
+     margin-top: 344px;
+}
+.btitle1 p{
+     font-family: Montserrat;
+     font-size: 24px;
+     font-weight: 700;
+     color: rgba(35, 34, 34, 1);
+
+}
+.boxtwo{
+     width: 527px;
+     height: 452px;
+     background-image: url(Picture/pattern3.svg);
+}
+.btitle2{
+     width: 310px;
+     height: 108px;
+     background: #F4F4F4;
+     padding: 37px 55px;
+     margin-top: 344px;
+}
+.btitle2 p{
+     font-family: Montserrat;
+     font-size: 24px;
+     font-weight: 700;
+     color: rgba(35, 34, 34, 1);
+}
+
+.boxone{
+     margin:0px 22px ;
+}
+.boxtwo{
+     margin-right:22px ;
+}
+
+
+.category{
+      width: 654px;
+      height: 68px;
+      margin: 16px auto;
+      margin-bottom: 24px;
+      margin-top: 80px;
+}
+.category h1{
+      color: rgba(35, 34, 34, 1);
+     font-family: Montserrat;
+     font-size: 48px;
+     font-weight: 700;
+}
+
+
+
+
+
+.pictures {
+     margin: 28px 70px;
+
+}
+.content{
+     width: 310px;
+     height: 236px;
+}
+
+
+
+.brands{
+     margin-top: 60px;
+     height: 208px;
+     padding: 0px 70px;
+     background: #F4F4F4;
+}
+.coin{
+     margin-top: 59px;
+     margin-bottom: 71px;
+     margin-right: 53px;
+}
+.chain{
+     margin-top: 40px;
+     margin-bottom: 52px;
+     margin-right: 53px;
+}
+.tether{
+     margin-top: 64px;
+     margin-bottom: 76px;
+     margin-right: 69px;
+}
+.wolf{
+     margin-top: 59px;
+     margin-bottom: 71px;
+     margin-right: 80px;
+}
+.ether{
+     margin-top: 53px;
+     margin-bottom: 65px;
+}
+
+
+
+
+
+
+
+
+
+.register{
+     background-image: url(Picture/rasm.svg);
+     width: 1440px;
+     height: 618px;
+     padding-left: 70px;
+     padding-top: 232px;
+}
+.stay{
+     width: 408px;
+     height: 68px;
+}
+.stay h1{
+     font-family: Montserrat;
+     font-size: 48px;
+     font-weight: 700;
+     color: rgba(35, 34, 34, 1);
+}
+.ringnft{
+     margin-top: 20px;
+     width: 467px;
+     height: 104px;
+     margin-bottom: 48px;
+}
+.ringnft p{
+     font-family: Montserrat;
+     font-size: 20px;
+     font-weight: 400;
+     line-height: 33px;
+     letter-spacing: 0.02em;
+
+}
+
+
+.register_for  form{
+     width: 495px;
+     height: 48px;
+     max-width: 100%;
+     position: relative;
+}
+.register_for  form input:first-child{
+     max-width: 100%;
+     padding: 11px 218px 11px 34px;
+     border-radius: 10px;
+     outline: none;
+     height: 48px;
+     background-color:  rgba(255, 255, 255, 1);
+     border: 1px solid  rgba(255, 255, 255, 1);
+     font-family: Montserrat;
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 26px;
+     letter-spacing: 0.02em;
+     text-align: left;
+     color:  rgba(255, 255, 255, 1);
+
+}
+.register_for  form input:last-child{
+     position: absolute;
+     max-width: 100%;
+     height: 48px;
+     width: 148px;
+     padding: 7px 27px 6px 28px;
+     border-radius: 10px;
+     border: none;
+     background: linear-gradient(132.95deg, #FFC301 9.31%, #FF6533 79.4%);
+     left: 346px;
+     font-family: Montserrat;
+     font-size: 20px;
+     font-weight: 700;
+     line-height: 35px;
+     letter-spacing: 0.02em;
+     text-align: center;
+     color:rgba(255, 255, 255, 1);
+}
+
+
+
+
+
+
+footer{
+     margin-top: 158px;
+     padding: 0px 124px;
+}
+.token{
+     width: 373px;
+     height: 185px;
+     margin-top: 33px;
+
+}
+.some {
+     color: rgba(35, 34, 34, 1);
+     font-family: Montserrat;
+     font-size: 20px;
+     font-weight: 400;
+     line-height: 50px;
+     margin-top: 21px;
+}
+.any{
+     font-family: Montserrat;
+     font-size: 20px;
+     font-weight: 700;
+     color: rgba(35, 34, 34, 1);
+}
+.natitle {
+     margin-left: 17px;
+}
+
+.lists{
+     width: 168px;
+     height: 483px;
+}
+.aboutfooter{
+     width: 215px;
+     height: 283px;
+}
+.diskord{
+     width: 214px;
+     height: 333px;
+}
+.NFTring{
+     margin-right: 67px;
+}
+.account{
+     margin-left: 77px;
+     margin-right: 77px;
+}
+.natitle{
+     padding-top: 10px;
+}
+
